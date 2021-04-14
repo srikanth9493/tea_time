@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid green;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* flex-direction: column; */
+}
+
+.box {
+  padding: 20px;
+}
+
+.item-1 {
+  background-color: red;
+  /* order: 1; */
+}
+.item-2 {
+  background-color: green;
+  /* align-self: flex-start; */
+  min-width: 300px;
+}
+
+.item-3 {
+  background-color: yellow;
+}
+.item-4 {
+  background-color: orange;
+}
+.item-5 {
+  background-color: blue;
+}
